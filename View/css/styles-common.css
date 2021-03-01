@@ -1,0 +1,12 @@
+
+.fix-height{
+    min-height: calc(100vh - 260px);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.list-group-item{
+    margin-bottom: 10px;
+}

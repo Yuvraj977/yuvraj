@@ -1,0 +1,81 @@
+/* Sections */
+.category-wrap{padding: 20px 0;}
+.category h2{border-bottom: 1px solid #e9e9e9; font-weight: 400; padding-bottom: 5px; margin: 0 0 15px;}
+.book-container{margin-bottom: 20px;}
+.book-container h4{margin: 5px 0 0; font-weight: 400; font-size: 16px}
+.book-container a:hover{text-decoration: none;}
+.book-container .cover{margin: 0; color: #888;}
+.book-container .mark{margin: 5px 0; padding: 0; font-size: 0;}
+.book-container .mark li{display: inline-block; list-style: none; margin-right: 5px;}
+.book-container .mark li a{color: #ffca28; font-size: 16px;}
+.book-container .mark li a:hover{text-decoration: none; color: #ff8328;}
+.book-container .mark span{display: inline-block;}
+.book-container .mark span a{font-size: 12px; position: relative; top: -6px;}
+.book-container .mark span a:hover{text-decoration: none;}
+.book-container .price{margin: 0;}
+.book-container .price span{display: inline-block; margin-right: 10px;}
+.book-container .old-price{text-decoration: line-through; color: #888; font-size: 12px;}
+.book-container .new-price{color: #b12704; font-size: 16px;}
+.book-container .book-info{margin: 0; padding: 0;}
+.book-container .book-info li{list-style: none; display: inline-block; margin-right: 10px; font-size: 12px;}
+.book-container .book-info li:last-child{margin: 0;}
+.book-container .book-info li i{margin-right: 3px;}
+
+.book-info-download span{color: #337ab7;}
+.download {color: #337ab7; font-size: 250px;}
+.book-info-favourite span{color: #a94442;}
+.favourite {color: #a94442; font-size: 250px;}
+.book-info-pages span{color: #8a6d3b;}
+.read {color: #8a6d3b; font-size: 250px;}
+.tops-container{
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+.book-container h4, .book-container p{
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    /*background: #fc0; !* Цвет фона *!*/
+    padding: 1px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.book-container {
+    max-width: 176px;
+}
+
+
+
+div [aria-expanded=true] .glyphicon-menu-down{
+    display: none;
+}
+div [aria-expanded=false] .glyphicon-menu-up{
+    display: none;
+}
+
+.divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #FFF;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/*/#for level label*!*/
+.book-container {
+    position: relative;
+    display: block;}
+
+.level-label {
+    left: 0;
+    /*top: 256px;*/
+    /*right:0;*/
+    position: absolute;
+    margin-top: -205px;
+    /*margin-left: -25px;*/
+}
+/*for level label ends*/
